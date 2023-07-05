@@ -1,0 +1,31 @@
+{
+  "name": "aerosport",
+  "version": "1.0.0",
+  "description": "Federasi Aerosport Indonesia",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aerosport",
+    "fasi",
+    "fai"
+  ],
+  "author": "liupurnomo.com",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.0"
+  }
+}
